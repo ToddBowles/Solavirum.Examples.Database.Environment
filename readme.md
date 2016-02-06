@@ -4,6 +4,8 @@
 
 Contains a relatively simple sample environment that creates a PostgreSQL database using RDS.
 
+This repository was copied and then modified from an internal source. As such, it has not been fully tested and may have issues.
+
 ### How do I get set up? ###
 
 * A package containing a the scripts required to create a versioned environment can be built using /scripts/build/build.ps1. This will automatically create a packaged versioned based on the current time.
