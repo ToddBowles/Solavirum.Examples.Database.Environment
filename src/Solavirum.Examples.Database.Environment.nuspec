@@ -1,0 +1,18 @@
+<package>
+  <metadata>
+    <id>Solavirum.Examples.Database.Environment</id>
+    <version>$version$</version>
+    <authors>ToddBowles</authors>
+    <owners>Solavirum</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Template and scripts required to create a package for the provisioning of a sample database environment using RDS.</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="script-root-indicator" target="script-root-indicator" />
+    <file src="scripts\**" target="scripts" />
+    <file src="template\**" target="template" />
+    <file src="tools\**" target="tools" exclude="packages" />
+    <file src="SharedAssemblyInfo.cs" />
+  </files>
+</package>
